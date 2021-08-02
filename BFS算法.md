@@ -52,7 +52,7 @@
 
 题目描述：例如生活中正常的4位密码锁，每次旋转1位；计算要避开死亡密码，达到target的最小步数
 
-<img src="C:\Users\mWX1034919\Desktop\1624555376-UjSNOW-image.png" alt="1624555376-UjSNOW-image" style="zoom: 50%;" />
+![image-20210802102628416](BFS算法.assets/image-20210802102628416.png)
 
 ```C++
 class Solution {
@@ -131,7 +131,7 @@ public:
 
 题目描述：只能用「0」的位置，计算达成target所需的步数
 
-![image-20210729165915506](C:\Users\mWX1034919\AppData\Roaming\Typora\typora-user-images\image-20210729165915506.png)
+![image-20210802102702460](BFS算法.assets/image-20210802102702460.png)
 
 ```C++
 class Solution {
@@ -210,7 +210,7 @@ public:
 
 题目描述：
 
-![image-20210729174613363](C:\Users\mWX1034919\AppData\Roaming\Typora\typora-user-images\image-20210729174613363.png)
+![image-20210802102716196](BFS算法.assets/image-20210802102716196.png)
 
 ```C++
 class Solution {
@@ -254,10 +254,11 @@ public:
 
 `注`
 
-![image-20210729174812652](C:\Users\mWX1034919\AppData\Roaming\Typora\typora-user-images\image-20210729174812652.png)
+![image-20210802102738359](BFS算法.assets/image-20210802102738359.png)
 
 
 
 ## 小结
 
 1. BFS算法通常不需要像DFS回溯算法那样专门写一个backtrack()函数，因为BFS不存在递归，直接写在主函数内部即可
+
